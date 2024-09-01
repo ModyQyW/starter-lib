@@ -23,7 +23,11 @@ export default defineConfig({
       description: "_description_",
       themeConfig: {
         nav: [
-          { text: "Guide", link: "/guide/getting-started" },
+          {
+            text: "Guide",
+            link: "/guide/getting-started",
+            activeMatch: "/guide/",
+          },
           {
             text: "Resources",
             items: [
@@ -58,7 +62,11 @@ export default defineConfig({
       description: "_description_",
       themeConfig: {
         nav: [
-          { text: "指南", link: "/zh-Hans/guide/getting-started" },
+          {
+            text: "指南",
+            link: "/zh-Hans/guide/getting-started",
+            activeMatch: "/zh-Hans/guide/",
+          },
           {
             text: "资源",
             items: [

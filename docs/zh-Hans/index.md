@@ -1,0 +1,25 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "_repo_"
+  tagline: "_description_"
+  actions:
+    - theme: brand
+      text: 起步 →
+      link: /zh-Hans/guide/getting-started
+    - theme: alt
+      text: 为什么是 _repo_？
+      link: /zh-Hans/guide/why
+    - theme: alt
+      text: 在 GitHub 查看
+      link: https://github.com/_author_/_repo_
+  image:
+    src: /logo.png
+    alt: _repo_
+features:
+  - title: "_特性_"
+    details: _特性细节_
+    link: /zh-Hans/guide/_feature_
+---

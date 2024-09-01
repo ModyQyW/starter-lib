@@ -1,0 +1,57 @@
+{
+  "name": "_core_",
+  "version": "0.0.0",
+  "description": "_description_",
+  "keywords": ["_keywords_"],
+  "homepage": "https://github.com/_author_/_repo_/tree/main/packages/core",
+  "bugs": {
+    "url": "https://github.com/_author_/_repo_/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/_author_/_repo_.git"
+  },
+  "funding": "https://github.com/_author_/sponsors",
+  "license": "MIT",
+  "author": "_author_",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "main": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "prepublishOnly": "pnpm build",
+    "stub": "unbuild --stub"
+  },
+  "packageManager": "pnpm@9.9.0",
+  "engines": {
+    "node": ">=20.11.0 || >=21.2.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

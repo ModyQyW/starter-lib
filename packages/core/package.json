@@ -2,7 +2,9 @@
   "name": "_core_",
   "version": "0.0.0",
   "description": "_description_",
-  "keywords": ["_keywords_"],
+  "keywords": [
+    "_keywords_"
+  ],
   "homepage": "https://github.com/_author_/_repo_/tree/main/packages/core",
   "bugs": {
     "url": "https://github.com/_author_/_repo_/issues"
@@ -46,7 +48,6 @@
     "prepublishOnly": "pnpm build",
     "stub": "unbuild --stub"
   },
-  "packageManager": "pnpm@9.9.0",
   "engines": {
     "node": ">=20.11.0 || >=21.2.0"
   },

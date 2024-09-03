@@ -1,4 +1,4 @@
-import { unlink } from "node:fs/promises";
+import { appendFile, unlink } from "node:fs/promises";
 import { resolve } from "node:path";
 import { defineBuildConfig } from "unbuild";
 
@@ -9,14 +9,30 @@ export default defineBuildConfig({
   hooks: {
     "build:done": async (ctx) => {
       const outDir = ctx.options.outDir;
+      const promises = [];
+      // remove empty files
       const emptyBuildEntries = ctx.buildEntries.filter(
         (entry) => entry.exports?.length === 0,
       );
-      await Promise.all(
-        emptyBuildEntries.map((entry) => {
-          return unlink(resolve(outDir, entry.path));
-        }),
+      promises.push(
+        emptyBuildEntries.map((entry) => unlink(resolve(outDir, entry.path))),
       );
+      // patch cjs entries
+      const cjsBuildEntries = ctx.buildEntries.filter(
+        (entry) =>
+          entry.exports?.length &&
+          entry.exports.length > 0 &&
+          entry.path.endsWith(".cjs"),
+      );
+      promises.push(
+        cjsBuildEntries.map((entry) =>
+          appendFile(
+            resolve(outDir, entry.path),
+            "module.exports = Object.assign(exports.default || {}, exports);",
+          ),
+        ),
+      );
+      await Promise.all(promises);
     },
   },
   rollup: {

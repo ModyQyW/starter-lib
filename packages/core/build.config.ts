@@ -20,8 +20,9 @@ export default defineBuildConfig({
       // patch cjs entries
       const cjsBuildEntries = ctx.buildEntries.filter(
         (entry) =>
-          entry.exports?.length &&
-          entry.exports.length > 0 &&
+          entry.exports &&
+          entry.exports.length > 1 &&
+          entry.exports.includes("default") &&
           entry.path.endsWith(".cjs"),
       );
       promises.push(

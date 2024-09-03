@@ -18,6 +18,7 @@
   "scripts": {
     "build": "rimraf packages/*/dist --glob && pnpm -r --filter=./packages/* run build && pnpm -r run build-post",
     "check": "biome check --write --no-errors-on-unmatched --files-ignore-unknown=true",
+    "dep-update": "taze -fw",
     "dev": "pnpm stub",
     "docs:build": "pnpm -C docs run build",
     "docs:dev": "pnpm -C docs run dev",
@@ -26,11 +27,13 @@
     "play:build": "pnpm build && pnpm -C playground run build",
     "play:dev": "pnpm dev && pnpm -C playground run dev",
     "prepare": "is-ci || simple-git-hooks",
+    "prepublishOnly": "pnpm run build",
     "release": "lerna version",
     "stub": "pnpm -r --filter=./packages/* --parallel run stub",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "preversion": "pnpm run check"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
@@ -46,6 +49,7 @@
     "lint-staged": "^15.2.10",
     "rimraf": "^6.0.1",
     "simple-git-hooks": "^2.11.1",
+    "taze": "^0.16.7",
     "typescript": "^5.5.4",
     "unbuild": "^3.0.0-rc.7",
     "vitest": "^2.0.5"

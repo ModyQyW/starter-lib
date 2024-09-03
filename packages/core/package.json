@@ -11,7 +11,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/_author_/_repo_.git"
+    "url": "git+https://github.com/_author_/_repo_.git",
+    "directory": "packages/core"
   },
   "funding": "https://github.com/_author_/sponsors",
   "license": "MIT",

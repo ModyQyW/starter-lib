@@ -7,11 +7,11 @@
       "**/.DS_Store",
       "**/dist",
       "**/cache",
-      "./playground",
+      "**/coverage",
+      "**/manifest.json",
+      "**/pages.json",
       "./**/package.json",
-      "./lerna.json",
-      "./.vscode",
-      "./coverage"
+      "./lerna.json"
     ]
   },
   "organizeImports": {

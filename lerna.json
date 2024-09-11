@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "npmClient": "pnpm",
   "packages": [
-    "packages/*",
-    "examples/*",
-    "playground",
-    "docs"
+    "packages/*"
   ],
   "command": {
     "version": {

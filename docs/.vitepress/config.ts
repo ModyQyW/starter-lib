@@ -42,7 +42,7 @@ export default defineConfig({
           {
             text: "Guide",
             items: [
-              { text: "Why _repo_?", link: "/guide/why" },
+              { text: "Why?", link: "/guide/why" },
               {
                 text: "Getting Started",
                 link: "/guide/getting-started",

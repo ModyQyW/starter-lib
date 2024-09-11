@@ -10,7 +10,7 @@ hero:
       text: Get Started →
       link: /guide/getting-started
     - theme: alt
-      text: Why _repo_?
+      text: Why?
       link: /guide/why
     - theme: alt
       text: View on GitHub

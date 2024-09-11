@@ -14,10 +14,10 @@ English | [简体中文](./README-zh_CN.md)
 
 |Name|Description|
 |---|---|
-|[core](https://github.com/_auther_/_repo_/tree/main/packages/core)|Core package|
-|[docs](https://github.com/_auther_/_repo_/tree/main/docs)|Documentation|
-|[playground](https://github.com/_auther_/_repo_/tree/main/playground)|Light playground for local trying and testing|
-|[examples](https://github.com/_auther_/_repo_/tree/main/examples)|Examples integrated with specific frameworks or libraries|
+|[core](https://github.com/_author_/_repo_/tree/main/packages/core)|Core package|
+|[docs](https://github.com/_author_/_repo_/tree/main/docs)|Documentation|
+|[playground](https://github.com/_author_/_repo_/tree/main/playground)|Light playground for local trying and testing|
+|[examples](https://github.com/_author_/_repo_/tree/main/examples)|Examples integrated with specific frameworks or libraries|
 
 ## Acknowledgements
 
@@ -27,7 +27,7 @@ English | [简体中文](./README-zh_CN.md)
 
 This project was created by [_author_](https://github.com/_author_).
 
-Thanks to [all contributors](https://github.com/_auther_/_repo_/graphs/contributors) for their contributions!
+Thanks to [all contributors](https://github.com/_author_/_repo_/graphs/contributors) for their contributions!
 
 ## Sponsors
 

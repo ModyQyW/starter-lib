@@ -14,10 +14,10 @@
 
 |名称|描述|
 |---|---|
-|[core](https://github.com/_auther_/_repo_/tree/main/packages/core)|核心|
-|[docs](https://github.com/_auther_/_repo_/tree/main/docs)|文档|
-|[playground](https://github.com/_auther_/_repo_/tree/main/playground)|轻量游乐场，可拉取到本地后尝试|
-|[examples](https://github.com/_auther_/_repo_/tree/main/examples)|与特定框架或库集成的示例|
+|[core](https://github.com/_author_/_repo_/tree/main/packages/core)|核心|
+|[docs](https://github.com/_author_/_repo_/tree/main/docs)|文档|
+|[playground](https://github.com/_author_/_repo_/tree/main/playground)|轻量游乐场，可拉取到本地后尝试|
+|[examples](https://github.com/_author_/_repo_/tree/main/examples)|与特定框架或库集成的示例|
 
 ## 致谢
 
@@ -27,7 +27,7 @@
 
 该项目由 [_author_](https://github.com/_author_) 创建。
 
-感谢 [所有贡献者](https://github.com/_auther_/_repo_/graphs/contributors) 的付出！
+感谢 [所有贡献者](https://github.com/_author_/_repo_/graphs/contributors) 的付出！
 
 ## 赞助
 

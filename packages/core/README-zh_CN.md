@@ -1,6 +1,6 @@
 # _core_
 
-English | [简体中文](./README-zh_CN.md)
+[English](./README.md) | 简体中文
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 8px;">
   <a href="https://github.com/_author_/_repo_/blob/main/LICENSE">
@@ -18,25 +18,25 @@ English | [简体中文](./README-zh_CN.md)
 
 _description_
 
-👇 See the documentation for specific usage and examples.
+👇 请查看文档了解具体用法和示例。
 
 [Netlify](https://_repo_.netlify.app/) | [Cloudflare Pages](https://_repo_.pages.dev/)
 
-## Acknowledgements
+## 致谢
 
 - [_repo_](https://github.com/_author_/_repo_)
 
-## Contributors
+## 贡献者们
 
-This project was created by [_author_](https://github.com/_author_).
+该项目由 [_author_](https://github.com/_author_) 创建。
 
-Thanks to [all contributors](https://github.com/_author_/_repo_/graphs/contributors) for their contributions!
+感谢 [所有贡献者](https://github.com/_author_/_repo_/graphs/contributors) 的付出！
 
-## Sponsors
+## 赞助
 
-If this package is helpful to you, please consider [sponsoring](https://github.com/_author_/sponsors), which will benefit the ongoing development and maintenance of the project.
+如果这个包对你有所帮助，请考虑 [赞助](https://github.com/_author_/sponsors) 支持，这将有利于项目持续开发和维护。
 
-> _NOTE_: need to configure the sponsors repository, see [ModyQyW/sponsors](https://github.com/ModyQyW/sponsors).
+> _NOTE_：需要配置 sponsors 仓库，请参考 [ModyQyW/sponsors](https://github.com/ModyQyW/sponsors)。
 
 <p align="center">
   <a href="https://cdn.jsdelivr.net/gh/_author_/sponsors/sponsorkit/sponsors.svg">

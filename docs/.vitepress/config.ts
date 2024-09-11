@@ -81,7 +81,7 @@ export default defineConfig({
           {
             text: "Guide",
             items: [
-              { text: "为什么是 _repo_？", link: "/zh-Hans/guide/why" },
+              { text: "为什么？", link: "/zh-Hans/guide/why" },
               {
                 text: "起步",
                 link: "/zh-Hans/guide/getting-started",

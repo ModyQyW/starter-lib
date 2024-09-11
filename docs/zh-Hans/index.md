@@ -10,7 +10,7 @@ hero:
       text: 起步 →
       link: /zh-Hans/guide/getting-started
     - theme: alt
-      text: 为什么是 _repo_？
+      text: 为什么？
       link: /zh-Hans/guide/why
     - theme: alt
       text: 在 GitHub 查看

@@ -36,7 +36,7 @@
     "preversion": "pnpm run check"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
+    "@biomejs/biome": "^2.0.0",
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
     "@commitlint/config-pnpm-scopes": "^19.1.0",
